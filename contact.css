@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --text-color: black;
+    --button-color: rgb(37, 147, 55);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
+
+.hero{
+    background-image: url("https://websitedemos.net/earth-02/wp-content/uploads/sites/1125/2022/10/Contact-Banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 80px;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+  
+}
+.logo{
+        margin-top: 20px;
+        margin-left: 20px;
+   
+}
+.logo img{
+    width: 96px;
+    height: 16px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.herosection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.herosection  h1{
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: #2c541d;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.Get-in-touch {
+    flex: 1;
+    margin-left: 50px;
+    width: 100%;
+}
+.Get-in-touch h1{
+    margin-bottom: 40px;
+}
+.Get-in-touch .form{
+    display: flex;
+    flex-direction: column;
+}
+.form .inputs ,textarea{
+    padding: 13px 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    border: 0.5px solid gray;
+    font-size: 18px;
+    resize: vertical;
+}
+.formdiv{
+    background-color: solid white;
+}
+.form button{
+    background-color: #4CAF50;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    width:40%;
+    height: 40px;
+    color: white;
+    margin-top: 8px;
+}
+.Talk-to-us{
+    flex: 1;
+}
+.Talk-to-us h1{
+    margin-bottom: 40px;
+}
+.Talk-to-us .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Talk-to-us .email{
+    display: flex;
+    gap: 10px;
+}
+.Talk-to-us .email .img{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 7px;
+    align-items: center;
+}
+.Talk-to-us .email img{
+    width: 18px;
+    height: 18px;
+}
+.Talk-to-us .emailtext{
+    font-size: 18px;
+}
+
+
+.footer .navbar{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   
+ }
+ .footer .logo{
+         margin-top: 20px;
+         margin-left: 20px;
+    
+ }
+ .footer .logo img{
+     width: 96px;
+     height: 16px;
+ 
+ }
+ .footer ul{
+     list-style: none;
+     display: flex;
+     padding: 0;
+     margin-left: 40px;
+ }
+ .footer li{
+     margin-top: 20px;
+     margin-right: 20px;
+ }
+ .footer li a{
+    text-transform: uppercase;
+     text-decoration: none;
+     font-size: 16px;
+     color: black;
+ }
+ .copyright{
+    text-align: center;
+    margin-right: 40px;
+ }
+ .followus .icons{
+    display: flex;
+ }
+ .followus .icons li{
+    font-size: 18px;
+    height: 10px;
+ }
+ @media screen and (max-width: 900px) {
+    .footer .navbar{
+        flex-direction: column;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .footer ul{
+        flex-direction: column;
+    }
+ }
